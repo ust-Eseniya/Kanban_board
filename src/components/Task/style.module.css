@@ -1,0 +1,14 @@
+.task {
+  font-size: 18px;
+  background-color: var(--white);
+  width: 252px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+.task:hover {
+  background-color: #e0e0e0;
+}

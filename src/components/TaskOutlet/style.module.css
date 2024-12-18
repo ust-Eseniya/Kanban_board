@@ -1,0 +1,15 @@
+.container {
+  max-width: 282px;
+  width: 100%;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.container h2 {
+  margin-left: 10px;
+  font-size: 18px;
+}

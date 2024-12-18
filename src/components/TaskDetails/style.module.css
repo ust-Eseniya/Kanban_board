@@ -1,0 +1,56 @@
+.main {
+  min-height: 100vh;
+  background-color: #0079bf;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.innerContainer {
+  padding: 20px;
+  width: 90%;
+  margin: 25px auto;
+  height: 95vh;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.innerContainer svg {
+  cursor: pointer;
+}
+
+.inputWrapper,
+.noDescriptionCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.inputWrapper h2,
+.noDescriptionCont h2 {
+  font-size: 24px;
+}
+
+.innerContainer p {
+  font-size: 18px;
+}
+
+@media (max-width: 338px) {
+  .innerContainer {
+    width: 80%;
+    height: 80vh;
+  }
+  .inputWrapper h2,
+  .noDescriptionCont h2 {
+    font-size: 20px;
+  }
+
+  .innerContainer p {
+    font-size: 12px;
+  }
+}

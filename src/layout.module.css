@@ -1,0 +1,16 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--blue-bg);
+}
+
+.main {
+  flex-grow: 1;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

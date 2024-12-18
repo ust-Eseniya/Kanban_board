@@ -1,0 +1,15 @@
+.board {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 338px) {
+  .board {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}

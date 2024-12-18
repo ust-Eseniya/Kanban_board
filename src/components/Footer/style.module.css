@@ -1,0 +1,30 @@
+.footer {
+  max-height: 55px;
+  height: 100%;
+  font-size: 18px;
+  padding: 0 15px;
+  background-color: #0067a3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.amountTasks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 14px;
+    color: var(--white);
+  }
+}
+
+@media (max-width: 338px) {
+  .footer {
+    display: none;
+  }
+}
